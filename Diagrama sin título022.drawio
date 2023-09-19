@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" modified="2023-09-19T14:55:30.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="sEFdRdats1lxXe8_Be-Y" version="21.6.8" type="github">
+  <diagram name="Página-1" id="fgx3cZAbs4jCiuM5XjKi">
+    <mxGraphModel dx="2206" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eb7NuU8JQPdDlfaV91PV-12" target="Eb7NuU8JQPdDlfaV91PV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-12" value="Portal Web CAJA TACNA" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.display;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="-520" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.553;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Eb7NuU8JQPdDlfaV91PV-16" target="Eb7NuU8JQPdDlfaV91PV-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-25" value="escucha mesnajes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eb7NuU8JQPdDlfaV91PV-24">
+          <mxGeometry x="-0.4902" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Eb7NuU8JQPdDlfaV91PV-16" target="Eb7NuU8JQPdDlfaV91PV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-27" value="interpreta lenguaje natural" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eb7NuU8JQPdDlfaV91PV-26">
+          <mxGeometry x="-0.1667" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Eb7NuU8JQPdDlfaV91PV-16" target="Eb7NuU8JQPdDlfaV91PV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-29" value="Consulta" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Eb7NuU8JQPdDlfaV91PV-28">
+          <mxGeometry x="0.1158" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-16" value="API Server ChatBot CAJA TACNA&lt;br&gt;alojado HEROKU" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="85" y="-570" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-17" value="PostgreSQL - Alojado HEROKU" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="95" y="-390" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-18" value="API Dialogflow" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-545" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-19" value="Facebook Messenger API" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="-710" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Eb7NuU8JQPdDlfaV91PV-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Eb7NuU8JQPdDlfaV91PV-18" target="Eb7NuU8JQPdDlfaV91PV-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
